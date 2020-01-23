@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/employeeBackground"
+    android:orientation="vertical"
+    tools:context=".Views.LoginActivity">
+
+
+    <ImageView
+        android:id="@+id/employeePicture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48sp"
+        android:src="@drawable/approved"
+        />
+
+
+    <TextView
+        android:id="@+id/loginId"
+        android:layout_marginHorizontal="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300sp"
+        android:textSize="35sp"
+        android:textColor="@color/textColorEmployeeView"
+        android:text="@string/loginText"/>
+
+
+    <TextView
+        android:id="@+id/nameId"
+        android:layout_marginHorizontal="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350sp"
+        android:textSize="35sp"
+        android:textColor="@color/textColorEmployeeView"
+        android:text="@string/firstName"/>
+
+    <TextView
+        android:id="@+id/surNameId"
+        android:layout_marginHorizontal="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400sp"
+        android:textColor="@color/textColorEmployeeView"
+        android:textSize="35sp"
+        android:text="@string/surname"/>
+
+    <Button
+        android:id="@+id/returnBtnId"
+        android:layout_marginHorizontal="15sp"
+        style="@android:style/Widget.DeviceDefault.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/returnBtn"
+        android:layout_marginTop="550sp"
+        />
+
+
+
+</RelativeLayout>

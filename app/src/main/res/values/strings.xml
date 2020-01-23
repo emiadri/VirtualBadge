@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">VirtualBadge</string>
+    <string name="hello">Hello!</string>
+    <string name="login">login</string>
+    <string name="date">date</string>
+    <string name="accessDeniedInformation">wyglada na to, że podałeś nieprawidłowe dane. spróbuj ponownie.</string>
+
+    <string name="event_prompt">rodzaj wydarzenia</string>
+    <string name="actionAdminBtn">WYKONAJ</string>
+    <string name="surname">nazwisko:</string>
+    <string name="firstName">imie:</string>
+    <string name="password">password:</string>
+    <string name="loginText">login:</string>
+    <string name="returnBtn">powrót do logowania</string>
+    <string name="loginBtn">zaloguj</string>
+    <string name="administratorView">ADMINISTRATOR</string>
+    <string-array name="type_of_event">
+        <item>dodaj</item>
+        <item>usun</item>
+    </string-array>
+
+
+
+</resources>

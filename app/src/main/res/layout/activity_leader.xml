@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/eventTypesId"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/adminBackground"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48sp"
+        android:src="@drawable/admin" />
+
+    <TextView
+        android:layout_marginHorizontal="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_marginTop="180sp"
+        android:text="@string/administratorView"/>
+    <Spinner
+        android:id="@+id/typeOfEventId"
+        android:layout_marginTop="225sp"
+        android:layout_marginHorizontal="25sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/inputAdminBackground"
+        android:prompt="@string/event_prompt"
+        android:entries="@array/type_of_event" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="25sp"
+        android:layout_marginTop="250sp"
+        android:text="@string/loginText" />
+
+    <EditText
+        android:id="@+id/loginInputId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="25sp"
+        android:layout_marginTop="275sp"
+        android:background="@color/inputAdminBackground" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="25sp"
+        android:layout_marginTop="300sp"
+        android:text="@string/password" />
+
+    <EditText
+        android:id="@+id/passwordInputId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="25sp"
+        android:layout_marginTop="325sp"
+        android:background="@color/inputAdminBackground" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="25sp"
+        android:layout_marginTop="350sp"
+        android:text="@string/firstName" />
+
+    <EditText
+        android:id="@+id/firstNameInputId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="25sp"
+        android:layout_marginTop="375sp"
+        android:background="@color/inputAdminBackground" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="25sp"
+        android:layout_marginTop="400sp"
+        android:text="@string/surname" />
+
+    <EditText
+        android:id="@+id/surnameInputId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="25sp"
+        android:layout_marginTop="425sp"
+        android:background="@color/inputAdminBackground" />
+
+    <Button
+        android:id="@+id/actionAdminBtnId"
+        style="@android:style/Widget.DeviceDefault.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="25sp"
+        android:layout_marginTop="475sp"
+        android:text="@string/actionAdminBtn" />
+
+    <Button
+        android:id="@+id/returnBtnId"
+        style="@android:style/Widget.DeviceDefault.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="25sp"
+        android:layout_marginTop="525sp"
+        android:text="@string/returnBtn" />
+</RelativeLayout>

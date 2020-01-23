@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="employeeBackground">#082E04</color>
+    <color name="errorLoginBackground">#550404</color>
+    <color name="inputAdminBackground">#1B3370</color>
+    <color name="adminBackground">#002666</color>
+    <color name="textColorEmployeeView">#A4A7AF</color>
+</resources>
